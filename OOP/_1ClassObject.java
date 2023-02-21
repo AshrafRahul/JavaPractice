@@ -1,6 +1,4 @@
-package JavaPractice.OOP;
-
-public class class_object {
+public class _1ClassObject {
     public static void main(String[] args) {
         Person p1 = new Person();
         p1.name = "Ashraf";
