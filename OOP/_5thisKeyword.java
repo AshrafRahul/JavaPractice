@@ -26,10 +26,10 @@ class Person{
         System.out.println("Creating an object");
     }
 
-    public Person(int newAge, String newName){
+    public Person(int age, String name){
         this();
-        name = newName;
-        age = newAge;
+        this.name = name;
+        this.age = age;
     }
 
     void walk(){
